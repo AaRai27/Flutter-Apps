@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterapp/custom_colors.dart';
+import 'package:flutterapp/style/custom_colors.dart';
 
 TextStyle mainHeader = TextStyle(
     fontSize: 26,
