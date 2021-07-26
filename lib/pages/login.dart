@@ -1,7 +1,8 @@
 import 'dart:ui';
-import 'package:flutterapp/first_home_page.dart';
+import 'package:flutterapp/pages/catalog.dart';
+import 'package:flutterapp/pages/homepage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/custom_colors.dart';
+import 'package:flutterapp/style/custom_colors.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -61,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Text('NEXT'),
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => FirstHomePage()));
+                      MaterialPageRoute(builder: (context) => Catalog()));
                 },
               )
             ],

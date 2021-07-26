@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterapp/custom_colors.dart';
-import 'package:flutterapp/first_home_page.dart';
-import 'package:flutterapp/tutor1/login.dart';
-import 'font-style.dart';
+import 'package:flutterapp/style/custom_colors.dart';
+import 'package:flutterapp/pages/homepage.dart';
+import 'package:flutterapp/pages/login.dart';
+import 'style/font-style.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,13 +22,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("My First Flutter Apps"),
-          backgroundColor: color1,
-          actions: <Widget>[
-            IconButton(icon: Icon(Icons.mail), onPressed: () {})
-          ],
-        ),
+        // appBar: ,
         body: SafeArea(
           child: LoginPage(),
         ),
